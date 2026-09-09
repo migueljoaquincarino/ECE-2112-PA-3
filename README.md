@@ -88,3 +88,8 @@ selected_cars.shape
 (3, 5)
 ```
 Version History 
+September 8, 2026 - Initial Commit
+
+September 8, 2026 - Uploaded ipynb file
+
+Septembr 9, 2026 - Updated Code and Read
