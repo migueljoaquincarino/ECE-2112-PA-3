@@ -76,7 +76,7 @@ selected_cars
 ```
 ```python
     Model	          mpg	 cyl	hp	wt
-2	   Datsun 710	  22.8	4	  93	2.320
+2	  Datsun 710	 22.8	 4	  93	2.320
 27  Lotus Europa	30.4	4	  113	1.513
 29	Ferrari Dino	19.7	6	  175	2.770
 ```
