@@ -10,12 +10,12 @@ import pandas as pd
 The objective of this problem is to be able to load the csv file (cars.csv) into a Pandas Dataframe and practice selecting rows using positional indexing and columns using labels. 
 # Discussion
 The cars.csv file is loaded into a Dataframe and displayed to understand its structure. 
-The shape and the complete column of models are displayed.
+The shape and the complete column names are displayed.
 ```python
 cars = pd.read_csv('cars.csv')
 cars
 print(cars.shape)
-cars.loc[0:32, ['Model']]
+print(cars.columns) 
 ```
 Using positional indexing (.iloc) rows 6 through 10 are selected.
 ```python
@@ -24,7 +24,7 @@ cars_6_to_10
 ```
 The selected rows are now used in to display the selected cars to display its Model, mpg, cyl, hp, and gear, in the required order. 
 ```python
-cars.loc[[5,6,7,8,9],['Model', 'mpg', 'cyl', 'hp', 'gear']]
+cars_6_to_10[['Model', 'mpg', 'cyl', 'hp', 'gear']]
 ```
 ```python
   Model	          mpg	cyl	  hp	  gear 
@@ -71,11 +71,11 @@ selected_cars = cars.loc[
     (cars['Model'] == 'Datsun 710') |
     (cars['Model'] == 'Lotus Europa') |
     (cars['Model'] == 'Ferrari Dino'),
-    ['Model', 'mpg', 'cyl', 'hp', 'wt']]
+    ['Model', 'mpg', 'cyl', 'hp', 'gear']]
 selected_cars
 ```
 ```python
-    Model	          mpg	 cyl	hp	wt
+    Model	          mpg	 cyl	hp	gear
 2	  Datsun 710	 22.8	 4	  93	2.320
 27  Lotus Europa	30.4	4	  113	1.513
 29	Ferrari Dino	19.7	6	  175	2.770
