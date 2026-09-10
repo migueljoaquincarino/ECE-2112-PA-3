@@ -27,7 +27,7 @@ The selected rows are now used in to display the selected cars to display its Mo
 cars.loc[[5,6,7,8,9],['Model', 'mpg', 'cyl', 'hp', 'gear']]
 ```
 ```python
-  Model	          mpg	 cyl	hp	gear 
+  Model	          mpg	cyl	  hp	  gear 
 5	Valiant	      18.1	6	  105	  3
 6	Duster360	  14.3	8	  245	  3
 7	Merc240D	  24.4	4	  62	  4
@@ -92,4 +92,6 @@ September 8, 2026 - Initial Commit
 
 September 8, 2026 - Uploaded ipynb file
 
-Septembr 9, 2026 - Updated Code and Read
+Septembr 9, 2026 - Updated Code and Read.
+
+Septembr 10, 2026 - Finalized Notebook and Readme File.
